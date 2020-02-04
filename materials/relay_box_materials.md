@@ -31,6 +31,24 @@ Quantity: 1
 [Link](https://www.amazon.com/gp/product/B01IJIGZ7G/ref=ppx_yo_dt_b_asin_title_o00_s04?ie=UTF8&pldnSite=1&psc=1)
 
 ---
+###2.54mm/0.1" Pitch Terminal Blocks
+Condenses multiple wires from within the 4 pin and 8 pin wires into the circuit
+
+**8-Pin Terminal Block**  
+Quantity: 1  
+
+![](assets/pinblock.png)  
+
+[Link](https://www.adafruit.com/product/2141)
+
+**2-Pin Terminal Block**  
+Quantity: 1 
+
+![](assets/pinblock2.png)  
+
+[Link](https://www.adafruit.com/product/2138)
+
+---
 ###Nilight 50022R 160pcs Nylon Fully Insulated Male/Female Spade Crimp Quick Disconnects Wire Terminals Connector Set
 Prevents wires shorting out from extension cord to relay connection  
 Quantity: 10
@@ -59,4 +77,12 @@ Quantity: 8
 
 ---
 
-###
+### Maxxima Heavy Duty 3 Grounded Multi Outlet Adaptor Wall Plug, Turn one outlet into 3, Orange Adapter
+Splits one cord to power 2 chillers per partition
+Quantity: 4
+
+![](assets/powersplit.png) 
+
+[Link](https://www.amazon.com/gp/product/B07981QZNC?pf_rd_p=ab873d20-a0ca-439b-ac45-cd78f07a84d8&pf_rd_r=R8EN5V8DVTY5WMNJH037)
+
+---

@@ -70,6 +70,15 @@ Quantity: 6
 [Link](https://www.amazon.com/Tegg-Screw-Terminal-Connector-Arduino/dp/B07QRHJ489/ref=sr_1_1?keywords=3%2Bpin%2Bterminal%2Bblock%2Bac%2B250v&qid=1580148133&sr=8-1&th=1) (Sold in 20 Pack)
 
 ---
+###36-pin Stacking header
+Connect breadboard to LCD Display shield 
+Quantity: 1 
+
+![](assets/stackpin.png)
+
+[Link](https://www.adafruit.com/product/3366) (Sold in 5 Pack)
+
+---
 ### Premium Male/Male Jumper Wires 
 Connect pins from microcontroller to bread board  
 
@@ -85,6 +94,15 @@ Quantity: 1
 ![](assets/jumpwires2.png)
 
 [Link]()
+
+---
+###Hook-up Wire Spool Set - 22AWG Solid Core - 6 x 25 ft
+Extra wire that can be cut to size for breadboard and pin connections  
+Quantity: 1
+
+![](assets/wirespool.png)  
+
+[Link](https://www.adafruit.com/product/1311)
 
 ---
 
