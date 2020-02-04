@@ -83,6 +83,6 @@ Quantity: 4
 
 ![](assets/powersplit.png) 
 
-[Link](https://www.amazon.com/gp/product/B07981QZNC?pf_rd_p=ab873d20-a0ca-439b-ac45-cd78f07a84d8&pf_rd_r=R8EN5V8DVTY5WMNJH037)
+[Link](https://www.amazon.com/gp/product/B07981QZNC?pf_rd_p=ab873d20-a0ca-439b-ac45-cd78f07a84d8&pf_rd_r=R8EN5V8DVTY5WMNJH037) (Sold in 4 Pack)
 
 ---

@@ -34,7 +34,7 @@ Quantity: 1
 ---
 ###SD Card Shield V4
 
-Shield to connect SD card with thermal cycle to microcontroller to read  
+Shield to connect SD card with thermal cycle to microcontroller to read, **SD CARD NOT INCLUDED**   
 Quantity: 1
 
 ![](assets/sdshield.png)
@@ -43,7 +43,7 @@ Quantity: 1
 
 ---
 ###Tiny RTC I2C DS1307 AT24C32 Real Time Clock Module For Arduino AVR PIC 51 ARM
-Real time clock to keep track of time on microcontroller
+Real time clock to keep track of time on microcontroller  
 Quantity: 1
 
 ![](assets/rtc.png) ![](assets/rtc3.png)
