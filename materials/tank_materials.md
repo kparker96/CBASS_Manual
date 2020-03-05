@@ -1,6 +1,6 @@
-#Tank Materials
+# Tank Materials
 ---
-###Coleman 24-Can Party Stacker Portable Cooler
+### Coleman 24-Can Party Stacker Portable Cooler
 Tank that will be separated into 2 partitions  
 Quantity: 2
 
@@ -10,7 +10,7 @@ Quantity: 2
 
 ---
 
-###IceProbe Thermoelectric Aquarium Chiller - 4 in. x 4 3/4 in. x 7 1/2 in
+### IceProbe Thermoelectric Aquarium Chiller - 4 in. x 4 3/4 in. x 7 1/2 in
 Chillers that are installed into cooler wall  
 Quantity: 8  
 
@@ -20,7 +20,7 @@ Quantity: 8
 
 ---
 
-###DELUXE TITANIUM HEATING ELEMENT WITH PLASTIC GUARD
+### DELUXE TITANIUM HEATING ELEMENT WITH PLASTIC GUARD
 Heaters sit within each partition  
 Quantity: 4
 
@@ -30,7 +30,7 @@ Quantity: 4
 
 ---
 
-###SUNSUN JVP Series Submersible Circulation Powerhead Pump
+### SUNSUN JVP Series Submersible Circulation Powerhead Pump
 Circulates water withing each partition  
 Quantity: 8
 
@@ -40,7 +40,7 @@ Quantity: 8
 
 ---
 
-###Egg Crate, Black Styrene, 15" x 11.5"
+### Egg Crate, Black Styrene, 15" x 11.5"
 Sits on bottom of tank to hold coral fragments in place, can be cut in half to fit each partition in one tank  
 Quantity: 2
 
@@ -50,7 +50,7 @@ Quantity: 2
 
 ---
 
-###Double Threaded Bulkhead Fitting - 3/4 inch
+### Double Threaded Bulkhead Fitting - 3/4 inch
 Drilled into side of cooler, used to outflow excess water  Quantity: 4
 
 ![](assets/bulkhead.png)
@@ -59,7 +59,7 @@ Drilled into side of cooler, used to outflow excess water  Quantity: 4
 
 ---
 
-###Nylon Elbow 1/2" Hose ID x 3/4" NPT
+### Nylon Elbow 1/2" Hose ID x 3/4" NPT
 Screws into bulkhead to control outflow of water  
 Quantity: 4
 
@@ -71,14 +71,14 @@ Quantity: 4
 ### Lights
 
 
-###**Still Need to Enter**
+### Still Need to Enter
 
 
 
 
 ---
 
-###PVC Frame
+### PVC Frame
 Pipe and connector fittings to construct frame to hold up lights
 
 **3/4 in. x 10 ft. PVC Sch. 40 Plain-End Pipe**   
@@ -97,9 +97,9 @@ Quantity: 8
 
 ---
 
-#Water Circulation
+# Water Circulation
 ---
-###Danner Supreme Aqua-Mag 5 Water Pump
+### Danner Supreme Aqua-Mag 5 Water Pump
 Pump water from live well into each partition  
 Quantity: 1  
 
@@ -109,7 +109,7 @@ Quantity: 1
 
 ---
 
-###Clear Vinyl Tubing TV70 100'
+### Clear Vinyl Tubing TV70 100'
 Quantity: 1
 
 ![](assets/tube.png)
@@ -118,7 +118,7 @@ Quantity: 1
 
 ---
 
-###1/2" Hose Barb Series 326 3-Way PVC Ball Valve with Buna-N Seals
+### 1/2" Hose Barb Series 326 3-Way PVC Ball Valve with Buna-N Seals
 Circulate water through tubing from pump to outflow valves  
 Quantity: 1
 
@@ -128,7 +128,7 @@ Quantity: 1
 
 ---
 
-###Ball Valve, QickSert® CR Polymer, Inline, 1-Piece, Pipe Size 1/2", Tube Size 1/2"
+### Ball Valve, QickSert® CR Polymer, Inline, 1-Piece, Pipe Size 1/2", Tube Size 1/2"
 Connects pump to vinyl tubing   
 Quantity: 1
 
@@ -138,7 +138,7 @@ Quantity: 1
 
 ---
 
-###Plastic Valve
+### Plastic Valve
 Controls rate of water outflow to each partition  
 Quantity: 8  
 
