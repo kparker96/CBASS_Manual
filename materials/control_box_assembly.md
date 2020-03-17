@@ -53,9 +53,30 @@ The control box requires 4 PG7 glands on the front for the 4Pin wires that attac
 ![](assets/CBsideC.png)
 
 #### Side D:  
-
+1 PG11 glad is needed on the left side for the USB that connects into the microcontroller to upolad code. 
 
 ![](assets/CBsideD.png)
+
+# 3. Cut down breadboard 
+
+![](assets/cutbreadboard.png)  
+![](assets/cutbreadboardpieces.png)
+
+# 4. Solder pins onto real time clock 
+# 5. Assemble and solder breadboard 
+# 6. Assemble and solder LCD shield 
+# 7. Screw bottom layers into plexi glass
+# 8. Insert 4 and 8 pin wires and solder to longer wire 
+# 9. Insert LCD shield and SD shield onto elegoo 
+# 10. Plug everything in 
+# 11. Insert 4 pin wires to front and screw into breadboard 
+# 12. Solder temp wires to 4pins 
+# 13. Add rubber stoppers 
+# 14. Run RTC code 
+#15.  Run controller code 
+
+
+
 
 
 
