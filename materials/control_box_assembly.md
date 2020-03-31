@@ -10,8 +10,8 @@ Control Box components can be held in place by screwing them into an acrylic bas
 ![](assets/CBlayout.png)
 
 
-Cut a 7" x 5" piece of acrylic and remove a 1" x 1" square from each corner. The sides may need to be cut slightly smaller so the acrylic rests on the bottom of the box.
-![](assets/CBacrylic.png) 
+Start with a 7" x 5" piece of acrylic and remove a 1" x 1" square from each corner. The sides may need to be cut slightly smaller so the acrylic rests on the bottom of the box.
+![](assets/CBacryliccut.png)
 
 
 Once your cut acrylic can sit comfortably at the base, use a sharpie to mark the hole for the far left and right screw (circled in red) onto your cut acrylic piece. Use a 1/8" drill bit to drill through the acrylic at these marks. 
@@ -27,7 +27,7 @@ Once you have the holes lined up, screw the acrylic into the bottom of the box t
 
 # 2. Measure and drill holes for cable glands  
 
-Each side of the control box requires multiple holes drilled into the sides to install glands that provide a waterproof exit point for connections that extend outside of the control box. ***Note that if you use a different thickness of acrylic, the height of your glands may need to be adjusted.***
+Each side of the control box requires multiple holes drilled into the sides to install glands that provide a waterproof exit point for connections that extend outside of the control box. ***If you use a different thickness of acrylic, the height of your glands may need to be adjusted.***
 
 ![](assets/controlboxsides.png)
 
@@ -55,14 +55,36 @@ The control box requires 4 PG7 glands on the front for the 4Pin wires that attac
 #### Side D:  
 1 PG11 glad is needed on the left side for the USB that connects into the microcontroller to upolad code. 
 
-![](assets/CBsideD.png)
+![](assets/CBsideD.png)  
 
-# 3. Cut down breadboard 
 
-![](assets/cutbreadboard.png)  
-![](assets/cutbreadboardpieces.png)
+# 3. Solder pins onto real time clock 
 
-# 4. Solder pins onto real time clock 
+A real time clock (RTC) is used for the microcontroller to keep track of the date and time to program when the thermal cycle should begin and at what time select temperatures need to be reached. The RTC communicates with the microcontroller through multiple 
+
+![](assets/RTCdiagram.png)
+![](assets/RTCpins.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 4. Cut down a breadboard  
+Both the control and relay box require one breadboard of varying sizes. The control box breadboard needs to be at least 30 rows long with 5 columns. We used a 67 row [breadboard](https://www.amazon.com/Gikfun-Solder-able-Breadboard-Plated-Arduino/dp/B071WC2BCF) and cut it down to the needed size, however shorter breadboards can be used.  
+
+Using a bandsaw, cut a horizontal line at row 31, making sure that the holes in row 30 are completely in tact. Cut another horizontal line at row 49. Then cut the breadboard pieces vertically down the center separating columns a,b,c,d,e from columns f,g,h,i,j. The two 30 row breadboard pieces can be used in two separate control boxes while the additional 4 cut pieces can be used in four relay boxes. 
+
+![](assets/breadboardcut.png)  
+
+
 # 5. Assemble and solder breadboard 
 # 6. Assemble and solder LCD shield 
 # 7. Screw bottom layers into plexi glass
