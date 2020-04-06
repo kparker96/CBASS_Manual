@@ -1,6 +1,6 @@
 # Control Box Assembly
 ---
-The control box houses the microcontroller, Real time clock, temperature sensors, and LCD readout. These parts work together to read and record temperature and based upon the readout send information to the relay box to switch heaters and chillers on or off. 
+The control box houses the microcontroller, real time clock, temperature sensors, and LCD readout. These parts work together to read and record temperature and based upon the readout send information to the relay box to switch heaters and chillers on or off. 
 
 # 1. Cut a 1/8" thick acrylic insert for the control box
 
@@ -27,14 +27,14 @@ Once you have the holes lined up, screw the acrylic into the bottom of the box t
 
 # 2. Measure and drill holes for cable glands  
 
-Each side of the control box requires multiple holes drilled into the sides to install glands that provide a waterproof exit point for connections that extend outside of the control box. ***If you use a different thickness of acrylic, the height of your glands may need to be adjusted.***
+Each side of the control box requires multiple holes drilled into the sides to install glands that provide a waterproof exit point for connections that extend outside of the control box. ***If a different thickness of acrylic is used, the height of your glands may need to be adjusted.***
 
 ![](assets/controlboxsides.png)
 
 
 #### Side A: 
 
-The control box requires 4 PG7 glands on the front for the 4Pin wires that attach to the temperature sensors. Use a 29/64" drill bit for each hole. 
+The control box requires 4 [PG7 glands](https://www.amazon.com/Cable-Gland-Plastic-Waterproof-Adjustable/dp/B06Y5HGYK2/ref=sr_1_3?keywords=pg11%2Bcable%2Bgland&qid=1561480735&s=hi&sr=1-3&pldnSite=1&th=1) on the front for the 4Pin wires that attach to the temperature sensors. Use a 29/64" drill bit for each hole. 
 
 ![](assets/controlboxsidea.png)
 
@@ -48,33 +48,33 @@ The control box requires 4 PG7 glands on the front for the 4Pin wires that attac
 
 
 #### Side C:
-1 PG16 gland on the back side of the control box is needed for the power supply to the microcontroller. Use a 27/32" drill bit for this hole.
+1 [PG16 gland](https://www.amazon.com/Cable-Gland-Plastic-Waterproof-Adjustable/dp/B06Y5HGYK2/ref=sr_1_3?keywords=pg11%2Bcable%2Bgland&qid=1561480735&s=hi&sr=1-3&pldnSite=1&th=1) on the back side of the control box is needed for the power supply to the microcontroller. Use a 27/32" drill bit for this hole.
 
 ![](assets/CBsideC.png)
 
 #### Side D:  
-1 PG11 glad is needed on the left side for the USB that connects into the microcontroller to upolad code. 
+1 [PG11 gland](https://www.amazon.com/Cable-Gland-Plastic-Waterproof-Adjustable/dp/B06Y5F6G67/ref=sr_1_3?keywords=pg11%2Bcable%2Bgland&qid=1561480735&s=hi&sr=1-3&pldnSite=1&th=1) is needed on the left side for the USB that connects into the microcontroller to upolad code. Use a 11/16" drill bit for this hole. 
 
 ![](assets/CBsideD.png)  
 
 
 # 3. Solder pins onto real time clock 
 
-A real time clock (RTC) is used for the microcontroller to keep track of the date and time to program when the thermal cycle should begin and at what time select temperatures need to be reached. The RTC communicates with the microcontroller through multiple 
+A [real time clock (RTC)](https://www.amazon.com/gp/product/B07B93Y2WZ/ref=ox_sc_act_title_2?psc=1&smid=A26ATEC08S9EFM) is used for the microcontroller to keep track of the date and time to program when the thermal cycle should begin and at what time select temperatures need to be reached. The RTC communicates with the microcontroller through the Device Select (DS), Serial Clock (SCL), Serial Data (SDA), Power (VCC), and Ground (GND) pins (Boxed in red). These pins need a group of [stacking pin headers](https://www.adafruit.com/product/3366) soldered into them to connect [jumper wires](https://www.adafruit.com/product/758).  
 
-![](assets/RTCdiagram.png)
-![](assets/RTCpins.png)
+![](assets/RTCdiagram.png)  
 
+Cut a 5 pin segment from the stacking pin headers. For more information on cutting stacking pins check out this [video](https://www.youtube.com/watch?v=qDG3VFSMSPQ)
 
+![](assets/pinheadcut.png)  
 
+Set the RTC battery side up with the **screw holes on the top**, place the cut 5 pin header segment into the holes on the left side of the RTC.    
 
+![](assets/RTCscrewholes.png)  
 
+Solder the pins to the RTC. It is easiest to clip the RTC into a helping hands setup and use electrical tape to hold the pins in place while soldering.  
 
-
-
-
-
-
+![](assets/RTCtape.png)
 
 
 # 4. Cut down a breadboard  
@@ -85,7 +85,27 @@ Using a bandsaw, cut a horizontal line at row 31, making sure that the holes in 
 ![](assets/breadboardcut.png)  
 
 
-# 5. Assemble and solder breadboard 
+# 5. Assemble and solder breadboard  
+The control box requires one 30 row breadboard, stacking pin headers, [hook up wire](https://www.adafruit.com/product/1311), 6 [5mm 2 pin screw terminal blocks](https://www.amazon.com/Tegg-Screw-Terminal-Connector-Arduino/dp/B07QRHJ489/ref=sr_1_1?keywords=3%2Bpin%2Bterminal%2Bblock%2Bac%2B250v&qid=1580148133&sr=8-1&th=1), and one [4.7k ohm resistor](https://www.adafruit.com/product/2783). The temperature sensors will attach to 4Pin wires which will then connect into the screw terminal blocks. The connections of the breadboard are used to route temperature information from the sensors to the microcontroller.  
+
+![](assets/CBbreadboard.png)  
+
+Start with separating a group of 3 stacking pin headers. These will sit in f1 - f3 on the breadboard. (NOTE: If using the 30 row cut board with columns a-e, the columns are inverse, column a == j, b == i, etc.) Solder the stacking pin headers into the board, using electrical tape to hold the pins in place. After soldering, the pins can be cut up to the solder underneath so the breadboard lays flat. 
+
+![](assets/stackpinBB.png)  
+
+Each 5mm terminal block has a male and female side that can be used to connect blocks together by sliding the male side into the next blocks female side. Make 3 groups of two connected blocks.  
+
+![](assets/terminalblockBB.png)  
+
+Take one terminal block with the metal hole facing the + and - rows of the breadboard. The first pin should go in hole j7.   
+
+![](assets/termblockconnect.png) 
+
+![](assets/breadboarddiagram.png) 
+
+
+
 # 6. Assemble and solder LCD shield 
 # 7. Screw bottom layers into plexi glass
 # 8. Insert 4 and 8 pin wires and solder to longer wire 
