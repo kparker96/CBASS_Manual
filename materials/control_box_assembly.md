@@ -104,10 +104,12 @@ Take one terminal block set with the metal hole facing the + and - rows of the b
 
 After inserting all of the terminal blocks, jumper wire needs to be cut to size. You will need 3 white, 3 yellow, 3 red, and 3 blue wires cut. Wire color does not technically matter, but makes it easier to keep track of connections. We recommend using wire strippers, however scissors or pliers can be used to [strip wires](https://www.bobvila.com/articles/how-to-strip-wire/). 
   
-	| First Header  | Second Header |
-	| ------------- | ------------- |
-	| Content Cell  | Content Cell  |
-	| Content Cell  | Content Cell  |  
+| **White Wire**|**Yellow Wire**|**Blue Wire** |**Red Wire** |  
+| ------------- | ------------- |------------- |-------------|  
+| #1 g1-g8      | #1 f8-g14     | #1 g10-h16   | #1 g12-h18  |  
+| #2 h2-h10	    | #2 f14-g20    | #2 g16-h22   | #2	g18-h24	 |  
+| #3 i3-h12 	| #3 f20-g26	| #3 g22-h28   | #3	g24-h30	 |  
+  
  
 
 	
@@ -116,15 +118,6 @@ After inserting all of the terminal blocks, jumper wire needs to be cut to size.
 
 Wire color does not technically matter, but makes it easier to keep track of connections. We recommend using wire strippers, however scissors or pliers can be used to [strip wires](https://www.bobvila.com/articles/how-to-strip-wire/).  
   
-  
-  
-
-
-	|White Wire: |
-	|------------|	
-	|#1 g1-g8	 |
-	|#2 h2-h10	 |	
-	|#3 i3-h12	 |
 
 
 # 6. Assemble and solder LCD shield 
