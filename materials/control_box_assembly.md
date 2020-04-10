@@ -98,11 +98,32 @@ Each 5mm terminal block has a male and female side that can be used to connect b
 
 ![](assets/terminalblockBB.png)  
 
-Take one terminal block with the metal hole facing the + and - rows of the breadboard. The first pin should go in hole j7.   
+Take one terminal block set with the metal hole facing the + and - rows of the breadboard and put the first pin in hole j8. Add the next two terminal block sets adjacently. Terminal blocks should all be in column j with pins in even numbered holes from 8-30.     
 
-![](assets/termblockconnect.png) 
+![](assets/termblockconnect.png)  
 
-![](assets/breadboarddiagram.png) 
+After inserting all of the terminal blocks, jumper wire needs to be cut to size. You will need 3 white, 3 yellow, 3 red, and 3 blue wires cut. Wire color does not technically matter, but makes it easier to keep track of connections. We recommend using wire strippers, however scissors or pliers can be used to [strip wires](https://www.bobvila.com/articles/how-to-strip-wire/). 
+
+ 
+
+	|White Wire: |
+	|------------|	
+	|#1 g1-g8	 |
+	|#2 h2-h10	 |	
+	|#3 i3-h12	 |
+	
+
+![](assets/BBdiagram.png)  
+
+Wire color does not technically matter, but makes it easier to keep track of connections. We recommend using wire strippers, however scissors or pliers can be used to [strip wires](https://www.bobvila.com/articles/how-to-strip-wire/).  
+  
+  
+  
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |  
+ 
 
 
 
