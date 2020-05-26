@@ -189,7 +189,12 @@ Once all wires are soldered and taped, connect them into their pin numbers as fo
 
 ![](assets/8pinconnections.png)
  
-# 9. Insert LCD shield and SD shield onto elegoo 
+# 9. Insert SD and Assembled LCD shield onto Elegoo 
+Along with the LCD shield assembled in Step 6, the control box also requires an [SD Card Shield](https://www.seeedstudio.com/SD-Card-Shield-V4-p-1381.html) that will connect an SD card to read and store temperature information throughout system runs. The SD Card shield connects directly into the Elegoo followed by the LCD Shield connecting into the SD shield forming a 3 tier stack. 
+
+![](assets\SDelegoo.png)
+
+
 # 10. Plug everything in 
 # 11. Insert 4 pin wires to front and screw into breadboard 
 # 12. Solder temp wires to 4pins 
