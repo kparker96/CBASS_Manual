@@ -148,14 +148,46 @@ If the soldered breadboard does not already have screw holes in it, screw a 1/8"
 Unplug the power cables from the Elegoo and remove all components from the box to take out the acrylic. The cable glands can stay in if there is enough room to take out the acrylic. Use an 1/8" drill bit to drill holes completely through the acrylic at every marked point. Place the acrylic back in the control box and begin screwing in the components. Use the two screws that came with the control box to screw the acrylic into the control box. Plug the 9VDC Power Adaptor and USB cable back into the Elegoo board before screwing the board to the acrylic.    
  
 
-# 8. Insert 4 and 8 pin wires and solder to longer wire
-Now that all components are in screwed in, insert the PG7 glands on Side B. These will hold the **male** connections of an [8 Pin Connection Wire](https://www.amazon.com/gp/product/B00HG9VO0S/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1) and a [4 Pin Connection Wire](https://www.adafruit.com/product/744) which will connect the control box to the relay box.  
+# 8. Insert 4 and 8 pin connection wires and solder to longer wire
+Now that all components are screwed into the acrylic, insert the PG7 glands on Side B. These will hold the **male** connections of an [8 Pin Connection Wire](https://www.amazon.com/gp/product/B00HG9VO0S/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1) and a [4 Pin Connection Wire](https://www.adafruit.com/product/744) which will connect the control box to the relay box. 
 
-With Side B of the control box facing you, insert the **male** 8 Pin Wire through the cable gland on the right (The 8 Pin Wire should be in the gland closer to the Elegoo board). Insert the cable so all exposed wire are through. Make sure that the cable goes through the Sealing Nut correctly and tighten the 8 Pin Wire in place.  
+![](assets/m_f_8pin.png) 
+
+With Side B of the control box facing you, insert the **male** 8 Pin Connection Wire through the cable gland on the right (The 8 Pin Wire should be in the gland closer to the Elegoo board). Insert the cable so all exposed wires are through. Make sure that the cable goes through the Sealing Nut correctly and tighten the 8 Pin Wire in place. Each wire from the 8 Pin and 4 Pin Wire Connectors needs to be soldered to a [jumper wire](https://www.adafruit.com/product/758) so it can connect to a pin on the Elegoo board.  
 
 ![](assets/8PinWires.png)  
 
-Each 8 Pin Wire needs to be soldered to a [jumper wire](). To connect into a different pin on the Elegoo board. Helping hands are a useful tool to hold the wires close enough together.  
+Prep the jumper wires by cutting off one end and stripping about a 1/2 cm of wire from the cut end. It is helpful to match the colors of the jumper wire to the colors of the 8 Pin and 4 Pin Connector wires to keep track of connections. You will need a total of 10 wires stripped in the following colors: Red, Yellow, Orange, Green, Blue, Brown, White(2), Black (2).
+
+![](assets/jumpwirestrip.png)  
+
+After wires are stripped, it is time to begin soldering. [Helping Hands](https://www.amazon.com/Neiko-01902-Adjustable-Magnifying-Alligator/dp/B000P42O3C/ref=sr_1_5?dchild=1&keywords=helping+hands&qid=1589989705&sr=8-5) are a useful tool to keep the wires in place. Use the clips to keep the stripped jumper wire aligned with the 8 Pin connector wire. Position the wires so they overlap and are touching. Apply solder to the exposed wire, fusing the two together. Be careful to not touch the soldering iron to the protective outer casing of the wires as it will melt.  
+
+![](assets/8pinsolderpic.png)  
+
+Once fully soldered, cut a small piece of electrical tape and wrap around the solder. Solder all 8Pin wires to their corresponding colored jumper wire. Make sure not to accidentally touch already soldered wires with the iron. The locking nut of the cable gland can be loosened to gently turn the 8 Pin for to put the wires at a better angle. 
+
+Follow the same process for the 4Pin Connection wire ensuring that the **Male** end is being used. Only the black and white inner wires need to be soldered to jumper wire. Use wire cutters to trim off the red and yellow wires.  
+
+Once all wires are soldered and taped, connect them into their pin numbers as follows:     
+| **Color**      | **Elegoo Pin #**|  
+| :------------- | :----------: |   
+| Red 			 | 5V 			|  
+| Orange	     | 22			| 
+| Yellow		 | 23  			|  
+| Green		     | 24			|
+| Blue			 | 25  			|  
+| Brown		     | 26			| 
+| White(8Pin) 	 | 27 			|  
+| White(4Pin)	 | 28			|
+| Black(4Pin) 	 | 29  			|  
+| Black(8Pin)	 | GRD			|   
+   
+  
+   
+  
+
+![](assets/8pinconnections.png)
  
 # 9. Insert LCD shield and SD shield onto elegoo 
 # 10. Plug everything in 
