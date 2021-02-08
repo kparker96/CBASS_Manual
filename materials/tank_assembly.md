@@ -6,17 +6,13 @@ One CBASS unit controls the thermal cycle of two coolers. Each cooler is separat
 
 Each cooler requires multiple holes drilled to install outflow ports and chillers on the longer sides of the cooler. The measurements for hole placement are stated as the distances from certain points on the cooler. The "outer edge" of the cooler is the outside wall of the cooler not including the handles. The "inner edge" of the cooler is a rectangular ridge that sticks out on the outside of the cooler wall. Measurements for the height of holes are based upon the cooler sitting on top of its lid where the outer edge and lid meet.
 
-![](assets/coolerlabels.PNG) 
-
-
-
-![](assets/bulkheadinstalls.png)
+![](assets/coolerlabels.png) 
 
 ### 1. Measure placement and drill holes for outflow ports 
 
 Each cooler requires 2 outflow ports to maintain water level between all partitions. Outflows are located 1 1/4" from the outer edge and 1/2" from the top outer edge of the cooler. We use a [3/4" Bulkhead](https://www.marinedepot.com/double-threaded-bulkhead-fitting-3-4-inch) which requires a 1 1/2" diameter hole.
 
-![](assets/outflowlmeasurements.png)
+![](assets/outflowlmeasurements.PNG)
 
 
 ### 2. Measure placement and drill holes for chillers
@@ -25,7 +21,7 @@ Each chiller requires an outer and inner hole drilled into **the cooler wall opp
 The first and fourth chillers' outer holes are positioned 3/4" from the inner ridge of the cooler. The outer hole of the second and third chillers are positioned 1 1/4" from each other. All outer holes are drilled 1" from the bottom outer edge of the cooler.
   
 
-![](assets/chillerplacement.png)    
+![](assets/chillerplacement.PNG)    
   
 
 Use a 3" hole saw to drill halfway into the cooler wall for the outer hole of each chiller. You just want to remove the outer plastic of the cooler, exposing the insulation underneath. Use a flathead screwdriver to scrape out the insulation halfway. Drill a 1 1/4" hole into the center of each outer hole which is where the chiller will insert through. 
@@ -68,7 +64,7 @@ Vinyl tubing can be connected to each nylon elbow to redirect water outflow.
 
 Each cooler houses four [chillers](https://www.amazon.com/IceProbe-Thermoelectric-Aquarium-Chiller/dp/B001JSVLBO/ref=asc_df_B001JSVLBO/?tag=hyprod-20&linkCode=df0&hvadid=198088359792&hvpos=1o2&hvnetw=g&hvrand=5081962863071505841&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9021710&hvtargid=aud-829758849484:pla-319865085565&psc=1) total, two per partition. For each chiller, remove the watertight securing nut. Push the ice probe through the 1 1/4" hole drilled through the cooler wall. The silicon washer and foam pad underneath should rest in the scraped out insulation of the outer hole. Put the watertight screwing nut over the probe and screw it until the chiller is tightly secured. The weight of all four chillers may cause the tank to tip, but it will remain flat once water is added. 
 
-![](assets/iceprobe.png)
+![](assets/iceprobe.PNG)
 
 ### ** *CHILLER INSTALLATION PICTURE* **  
 
