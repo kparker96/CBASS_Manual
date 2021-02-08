@@ -6,7 +6,7 @@ One CBASS unit controls the thermal cycle of two coolers. Each cooler is separat
 
 Each cooler requires multiple holes drilled to install outflow ports and chillers on the longer sides of the cooler. The measurements for hole placement are stated as the distances from certain points on the cooler. The "outer edge" of the cooler is the outside wall of the cooler not including the handles. The "inner edge" of the cooler is a rectangular ridge that sticks out on the outside of the cooler wall. Measurements for the height of holes are based upon the cooler sitting on top of its lid where the outer edge and lid meet.
 
-![](assets/coolerlabels.png)
+<img src="assets/coolerlabels.png" />
 
 ### 1. Measure placement and drill holes for outflow ports 
 
