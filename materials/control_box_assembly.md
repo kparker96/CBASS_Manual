@@ -27,7 +27,7 @@ Each side of the control box requires multiple holes drilled into the sides to i
 
 The control box requires 4 [PG7 glands](https://www.amazon.com/Cable-Gland-Plastic-Waterproof-Adjustable/dp/B06Y5HGYK2/ref=sr_1_3?keywords=pg11%2Bcable%2Bgland&qid=1561480735&s=hi&sr=1-3&pldnSite=1&th=1) on the front for the 4Pin wires that attach to the temperature sensors. Use a 29/64" drill bit for each hole. 
 
-![](assets/controlboxsidea.PNG)
+![](assets/controlboxsideA.png)
 
 
 
@@ -190,7 +190,8 @@ Along with the LCD shield assembled in Step 6, the control box also requires an 
 
 Connect the SD shield directly into the Elegoo. With the SD card insert facing the same way as the power plugs on the Elegoo, the pins of the SD shield will fit exactly into the Power and Analog pins on the Elegoo (boxed in orange). 
 
-![](assets\SDelegoo.PNG)
+![](assets\SDelegoo.PNG)  
+
 
 Next, plug the LCD shield into the pins of the SD Shield. 
 
@@ -207,7 +208,7 @@ It is now time to connect the RTC and breadboard to the Elegoo with jumper wires
 |SCL -> 18 (Communication) 		| 											   |
 
 
-![](assets\wiring.PNG)  
+![](assets\wiring.png)  
 
 **_NOTE:_** *_This figure is meant to diagram all jummper wire connections in between control box components in a simple format. At this point in construction, all pieces should be soldered into the breadboard and RTC and the SD and LCD shield should be stacked on top of the Elegoo. The wires from the RTC to the Elegoo pins will have to curve around the Elegoo to not block the view of the LCD._* 
 
