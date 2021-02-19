@@ -191,12 +191,12 @@ Next, plug the LCD shield into the pins of the SD Shield.
 
 It is now time to connect the RTC and breadboard to the Elegoo with jumper wires. Connections are as followed: 
 
-|**RTC (RTC Pin -> Elegoo Pin)**| **Breadboard (Breadboard Pin -> Elegoo Pin)**|
-|:-----------------------------:| :-------------------------------------------:|  
-|GND -> GND (Digital)  			| f1 -> 									   |
-|VCC -> 20 (Digital)  			| f2 -> GND (Power)							   |
-|SDA -> 19 (Communication)  	| f3 -> 5V (Power)							   |
-|SCL -> 18 (Communication) 		| 											   |
+|**RTC (RTC Pin -> Elegoo Pin) (Wire Color)**  | **Breadboard (Breadboard Pin -> Elegoo Pin)**|
+|:-----------------------------:  | :-------------------------------------------:|  
+|GND -> GND (Digital) (Black)	  | f1 -> 									   |
+|VCC -> 20 (Digital)  (Red) 	  | f2 -> GND (Power)							   |
+|SDA -> 19 (Communication) (Blue) | f3 -> 5V (Power)							   |
+|SCL -> 18 (Communication) (White)| 											   |
 
 
 ![](assets/wiring.png)  
