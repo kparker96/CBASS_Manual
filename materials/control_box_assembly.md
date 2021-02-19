@@ -176,12 +176,15 @@ Once all wires are soldered and taped, connect them into their pin numbers as fo
 # 9. Insert SD and Assembled LCD shield onto Elegoo 
 Along with the LCD shield assembled in Step 6, the control box also requires an [SD Card Shield](https://www.seeedstudio.com/SD-Card-Shield-V4-p-1381.html) that will connect an SD card to read and store temperature information throughout system runs. The SD Card shield connects directly into the Elegoo followed by the LCD Shield connecting into the SD shield forming a 3 tier stack.   
 
-Connect the SD shield directly into the Elegoo. With the SD card insert facing the same way as the power plugs on the Elegoo, the pins of the SD shield will fit exactly into the Power and Analog pins on the Elegoo (boxed in orange). 
+Connect the SD shield directly into the Elegoo. With the SD card insert facing the same way as the power plugs on the Elegoo, the pins of the SD shield will fit exactly into the Power and Analog pins on the Elegoo (boxed in yellow). 
 
-![](assets\SDelegoo.PNG)  
+![](assets/sdsetup.png)  
 
 
-Next, plug the LCD shield into the pins of the SD Shield. 
+Next, plug the LCD shield into the pins of the SD Shield.
+
+
+![](assets/shieldsam.png)
 
 
 # 10. Plug everything in 
@@ -196,7 +199,7 @@ It is now time to connect the RTC and breadboard to the Elegoo with jumper wires
 |SCL -> 18 (Communication) 		| 											   |
 
 
-![](assets\wiring.png)  
+![](assets/wiring.png)  
 
 **_NOTE:_** *_This figure is meant to diagram all jummper wire connections in between control box components in a simple format. At this point in construction, all pieces should be soldered into the breadboard and RTC and the SD and LCD shield should be stacked on top of the Elegoo. The wires from the RTC to the Elegoo pins will have to curve around the Elegoo to not block the view of the LCD._* 
 
