@@ -191,15 +191,15 @@ Next, plug the LCD shield into the pins of the SD Shield.
 
 It is now time to connect the RTC and breadboard to the Elegoo with jumper wires. Connections are as followed: 
 
-|**RTC (RTC Pin -> Elegoo Pin) (Wire Color)**  | **Breadboard (Breadboard Pin -> Elegoo Pin)**|
+|**RTC (RTC Pin -> Elegoo Pin)**  | **Breadboard (Breadboard Pin -> Elegoo Pin)**|
 |:-----------------------------:  | :-------------------------------------------:|  
-|GND -> GND (Digital) (Black)	  | f1 -> 									   |
+|GND -> GND (Digital)	  | f1 -> 									   |
 |VCC -> 20 (Digital)  (Red) 	  | f2 -> GND (Power)							   |
 |SDA -> 19 (Communication) (Blue) | f3 -> 5V (Power)							   |
 |SCL -> 18 (Communication) (White)| 											   |
 
 
-![](assets/wiring.png)  
+![](assets/wired.png) 
 
 **_NOTE:_** *_This figure is meant to diagram all jummper wire connections in between control box components in a simple format. At this point in construction, all pieces should be soldered into the breadboard and RTC and the SD and LCD shield should be stacked on top of the Elegoo. The wires from the RTC to the Elegoo pins will have to curve around the Elegoo to not block the view of the LCD._* 
 
