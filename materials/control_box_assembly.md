@@ -1,24 +1,10 @@
 # Control Box Assembly
 ---
-The control box houses the microcontroller, real time clock, temperature sensors, and LCD readout. These parts work together to read and record temperature and based upon the readout send information to the relay box to switch heaters and chillers on or off. 
+The control box houses the microcontroller, real time clock (RTC), temperature sensors, and LCD screen. These parts work together to read and record the tank temperature and based upon the readout send information to the relay box to switch heaters and chillers on or off. 
 
-# 1. Cut a 1/8" thick acrylic insert for the control box
+# 1. Measure and drill holes for cable glands  
 
-Control Box components can be held in place by screwing them into an acrylic base. We suggest using 1/8" acrylic. The [enclosure](https://www.amazon.com/gp/product/B00U0S0VM4/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1) we used provides two metal screws that can be used to screw the acrylic base into the box.  
-  
-
-![](assets/CBlayout.PNG)
-
-
-Start with a 7" x 5" piece of acrylic and remove a 1" x 1" square from each corner. The sides may need to be cut slightly smaller so the acrylic rests on the bottom of the box.
-![](assets/CBacryliccut.PNG)
-
-
-Once the cut acrylic can sit comfortably at the base, use a marker to mark the placement of the screws and drill holes accordingly to screw in the base. 
-
-# 2. Measure and drill holes for cable glands  
-
-Each side of the control box requires multiple holes drilled into the sides to install glands that provide a waterproof exit point for connections that extend outside of the enclosure. ***If a different thickness of acrylic is used for the base, the height of your glands may need to be adjusted.***
+Each side of the enclosure requires multiple holes drilled into the sides to install glands that provide a waterproof exit point for connections that extend outside of the enclosure. If available, a milling machine is a useful tool to precisely drill the holes. However, a hand-held drill is also effective.  
 
 ![](assets/controlboxsides.png)
 
@@ -48,8 +34,7 @@ The control box requires 4 [PG7 glands](https://www.amazon.com/Cable-Gland-Plast
 
 ![](assets/CBsideD.PNG)  
 
-
-# 3. Solder pins onto real time clock 
+# 2. Solder pins onto real time clock 
 
 A [real time clock (RTC)](https://www.amazon.com/gp/product/B07B93Y2WZ/ref=ox_sc_act_title_2?psc=1&smid=A26ATEC08S9EFM) is used for the microcontroller to keep track of the date and time to program when the thermal cycle should begin and at what time select temperatures need to be reached. The RTC communicates with the microcontroller through the Device Select (DS), Serial Clock (SCL), Serial Data (SDA), Power (VCC), and Ground (GND) pins (Boxed in red). These pins need a group of [stacking pin headers](https://www.adafruit.com/product/3366) soldered into them to connect [jumper wires](https://www.adafruit.com/product/758).  
 
@@ -63,12 +48,12 @@ Set the RTC battery side up with the **screw holes on the top**, place the cut 5
 
 ![](assets/RTCscrewholes.png)  
 
-Solder the pins to the RTC. It is easiest to clip the RTC into a helping hands setup and use electrical tape to hold the pins in place while soldering.  
+Solder the pins to the RTC. It is easiest to clip the RTC into a helping hands setup and use electrical tape to hold the pins in place while soldering. Once soldered, the metal ends of the stacking pins above the solder can be clipped so the RTC sits flat.  
 
 ![](assets/RTCtape.PNG)
 
 
-# 4. Cut down a breadboard  
+# 3. Cut down a breadboard  
 Both the control and relay box require one breadboard of varying sizes. The control box breadboard needs to be at least 30 rows long with 5 columns. We used a 67 row [breadboard](https://www.amazon.com/Gikfun-Solder-able-Breadboard-Plated-Arduino/dp/B071WC2BCF) and cut it down to the needed size, however shorter breadboards can be used.  
 
 Using a bandsaw, cut a horizontal line at row 31, making sure that the holes in row 30 are completely in tact. Cut another horizontal line at row 49. Then cut the breadboard pieces vertically down the center separating columns a,b,c,d,e from columns f,g,h,i,j. The two 30 row breadboard pieces can be used in two separate control boxes while the additional 4 cut pieces can be used in four relay boxes. 
@@ -76,7 +61,7 @@ Using a bandsaw, cut a horizontal line at row 31, making sure that the holes in 
 ![](assets/breadboardcut.PNG)  
 
 
-# 5. Assemble and solder breadboard  
+# 4. Assemble and solder breadboard  
 The control box requires one 30 row breadboard, stacking pin headers, [hook up wire](https://www.adafruit.com/product/1311), 6 [5mm 2 pin screw terminal blocks](https://www.amazon.com/Tegg-Screw-Terminal-Connector-Arduino/dp/B07QRHJ489/ref=sr_1_1?keywords=3%2Bpin%2Bterminal%2Bblock%2Bac%2B250v&qid=1580148133&sr=8-1&th=1), and one [4.7k ohm resistor](https://www.adafruit.com/product/2783). The temperature sensors will attach to 4Pin wires which will then connect into the screw terminal blocks. The connections of the breadboard are used to route temperature information from the sensors to the microcontroller.  
 
 ![](assets/CBbreadboard.PNG)  
@@ -93,7 +78,7 @@ Take one terminal block set with the metal hole facing the + and - rows of the b
 
 ![](assets/termblockconnect.PNG)  
 
-After inserting all of the terminal blocks, jumper wire needs to be cut to size. You will need 3 white, 3 yellow, 3 red, and 3 blue wires cut. Wire color does not technically matter, but makes it easier to keep track of connections. We recommend using wire strippers, however scissors or pliers can be used to [strip wires](https://www.bobvila.com/articles/how-to-strip-wire/).  
+After inserting all of the terminal blocks, [hookup wire](https://www.adafruit.com/product/1311) needs to be cut to size. (Precut [breadboard jumper wire](https://www.amazon.com/AUSTOR-Lengths-Assorted-Preformed-Breadboard/dp/B07CJYSL2T/ref=sr_1_4?crid=2RN7SUTCREO9X&dchild=1&keywords=breadboard+jumper+wires&qid=1613683923&sprefix=breadboard+jumper%2Caps%2C157&sr=8-4) could also be used). You will need 3 white, 3 yellow, 3 red, and 3 blue wires cut. Wire color does not technically matter, but makes it easier to keep track of connections. We recommend using wire strippers, however scissors or pliers can be used to [strip wires](https://www.bobvila.com/articles/how-to-strip-wire/).  
 
 The following table and diagram show the start and end pin position for each wire on the breadboard. Wires need to be cut long enough to reach the start and end pin position for each connection. About 1/2 cm should be stripped off the ends to fit through the breadboard. The 4.7k ohm resistor sits in h1 - j3. 
 
@@ -111,49 +96,52 @@ After all wire has been been placed properly, flip the board upside to double ch
 
 Use a multimeter to ensure the  connections are strong. Place a [jumper wire](https://www.adafruit.com/product/759) into the first stacking pin header (f1). A signal should transfer from each soldered terminal block pin at j8, j14, j20, and j26 all the way to the jumper wire. Move the jumper wire to f2. A signal should transfer between the jumper wire and each soldered terminal block pin at j10, j16, j22, and j28. The wire at f3 should have a connection at j12, j18, j24, and j30. If connections are not being read, test shorter connections (i.e. the start and end point of each wire) to make sure the solder joints are solid. If all connections are strong, set the breadboard aside for now.  
 
-# 6. Assemble and solder LCD shield 
+# 5. Assemble and solder LCD shield 
 
 Each control box requires an LCD screen that connects to a shield that allows the microcontroller to communicate with the LCD. We suggest using the [RGB LCD Shield Kit w/ 16x2 Character Display](https://www.adafruit.com/product/714) which provides all the pieces needed to put the LCD together. Adafruit provides a thorough step by step tutorial on how to assemble the LCD shield kit. [Follow this tutorial](https://learn.adafruit.com/rgb-lcd-shield/assembly) for assembly, **but note there are some minor changes to the assembly that are specific for the CBASS**.  
   
-Steps 22-24 direct you to solder pin headers into the top and bottom of the LCD shield. **DO NOT SOLDER PIN HEADERS TO THE BOTTOM ROW OF PINS ON THE SHIELD (THE PINS THAT CONNECT INTO THE POWER AND ANALOG OF THE MICROCONTROLLER)**. Instead, stacking pin headers will be placed here later which will connect the breadboard to the microcontroller. 
+Steps 22-24 direct you to solder pin headers into the top and bottom of the LCD shield. **DO NOT SOLDER PIN HEADERS TO THE BOTTOM ROW OF PINS ON THE SHIELD (BOXED IN RED, THE PINS THAT CONNECT INTO THE POWER AND ANALOG OF THE MICROCONTROLLER)**. Instead, stacking pin headers will be placed here later which will connect the breadboard to the microcontroller. 
 
 ![](assets/lcd_tutorial.PNG)  
 
 Follow all other steps exactly. Make sure all resistors go into the proper location and that all pins on the microprocessor go through the pin holes and do not bend upward onto the board. Also, make sure the microprocessor is facing the correct direction with the notch aligning with the outline drawn on the shield.
 
-# 7. Screw Components into acrylic base  
+![](assets/lcdsold.png)
 
-Now that all base pieces have been assembled, it is time to screw them into the acrylic  board at the bottom of the control box. First, place the acrylic at the bottom of the control box. 
+# 6. Cut a 1/8" thick acrylic insert and anchor components
 
-Insert the PG7, PG11, and PG16 cable glands into their designated holes on sides A, C, and D. To do this, unscrew the locking nut, insert the body through the hole with the sealing nut on the outside of the box, then screw the locking nut onto the body on the inside of the control box. 
-![](assets/gland_anatomy.PNG)
+The Control Box components can be held in place by screwing them into an acrylic base. We suggest using 1/8" acrylic. ***If a different thickness of acrylic is used for the base, the height of your cable glands may need to be adjusted.*** The [enclosure](https://www.amazon.com/gp/product/B00U0S0VM4/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1) we used provides two metal screws that can be used to anchor the acrylic base to the box. 
 
-Use a sharpie to mark the hole for the far left and right screw (circled in red) onto the acrylic base. These will be used to keep the acrylic attached and in place at the bottom of the control box.
+Start with a 7" x 5" piece of acrylic and remove a 1" x 1" square from each corner. The sides may need to be cut slightly smaller so the acrylic rests on the bottom of the box.
+![](assets/CBacryliccut.PNG)
 
+With the acrylic at the bottom of the enclosure, use a marker to mark the placement for the far left and right screw (circled in red) onto the acrylic base.
 
 ![](assets/screwholesPNG.PNG)
 
-
-
-Set the Elegoo Microcontroller in the control box. Unscrew the Sealing Nut off the PG11 gland on Side C. Feed the [9VDC Power Adaptor](https://www.adafruit.com/product/63) through the Sealing Nut and Body to the inside of the box and plug it into the microcontroller as seen in the photo below.
+Set the Elegoo Microcontroller in the enclosure. Put the PG11 gland into Side C and feed the [9VDC Power Adaptor](https://www.adafruit.com/product/63) through the gland to plug it into the microcontroller (red arrow).
 
 ![](assets/9VDC.PNG) 
 
-Next, take the USB cable that came with the microcontroller and feed the side that connects to the microcontroller through the PG16 cable gland on Side D. The USB should be on the outside of the box. Plug the cord into the microcontroller, going over the 9VDC power adaptor. With both wires plugged in and their sealing nuts tightened, adjust the microcontroller so there is at least and inch of pace on the right side of it. Use a sharpie to mark the two holes in the center of the Elegoo board. This is where holes will be drilled to screw the board into place.  
+Do the same for the PG13 gland on side D of the enclosure and the [USB cable](https://www.amazon.com/C2G-28101-USB-Cable-Printers/dp/B000FW60E8/ref=asc_df_B000FW60E8/?tag=hyprod-20&linkCode=df0&hvadid=385197824350&hvpos=&hvnetw=g&hvrand=3399097554606910916&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9008551&hvtargid=pla-822723370740&psc=1&tag=&ref=&adgrpid=76690811457&hvpone=&hvptwo=&hvadid=385197824350&hvpos=&hvnetw=g&hvrand=3399097554606910916&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9008551&hvtargid=pla-822723370740) that comes with the microcontroller. Plug the cord into the microcontroller, going over the 9VDC power adaptor. Adjust the microcontroller so there is at least an inch of space on the right side of the enclosure and a sharpie to mark the two holes in the center of the Elegoo board. This is where holes will be drilled to screw the board into place on the acrylic.  
 
-Next, place the Real Time Clock with soldered pin headers in the box with its screw holes facing up. Set the RTC so the top right corner is aligned with the bottom left corner of the Elegoo board. Use a Sharpie to mark both screw holes.  
 
-If the soldered breadboard does not already have screw holes in it, screw a 1/8" hole on the left and right side of the breadboard on the edge of the + and - rows. Once the breadboard has holes, place it inside the control box, and mark the holes with a sharpie. The breadboard should sit with the + and - rows facing the outside of the box (the terminal block holes should be facing the four gland holes drilled on Side A). There should be about 1cm of space between the locking nuts of the glands and the edge of the breadboard.  
+Place the Real Time Clock with soldered pin headers in the box with its screw holes facing  up towards side C. Set the RTC so the top right corner is aligned with the bottom left corner of the Elegoo board and mark both screw holes. If the soldered breadboard does not already have screw holes in it, screw a 1/8" hole on the left and right side of the breadboard on the edge of the + and - rows. Once the breadboard has holes, place it inside the control box, and mark the holes onto the acrylic with a marker. The breadboard should sit with the + and - rows facing the outside of the box (the terminal block holes should be facing the four gland holes drilled on Side A). There should be about 1cm of space between the locking nuts of the cable glands and the edge of the breadboard.  
 
-Unplug the power cables from the Elegoo and remove all components from the box to take out the acrylic. The cable glands can stay in if there is enough room to take out the acrylic. Use an 1/8" drill bit to drill holes completely through the acrylic at every marked point. Place the acrylic back in the control box and begin screwing in the components. Use the two screws that came with the control box to screw the acrylic into the control box. Plug the 9VDC Power Adaptor and USB cable back into the Elegoo board before screwing the board to the acrylic.    
+Unplug the power cables from the Elegoo and remove all components from the box to take out the acrylic. The cable glands can stay in if there is enough room to take out the acrylic. Use a 1/8" drill bit to drill holes completely through the acrylic at every marked point. Place the acrylic back in the control box and begin screwing in the components. Use the two screws that came with the control box to screw the acrylic into the enclosure.   
  
+![](assets/screwin.png) 
+
 
 # 8. Insert 4 and 8 pin connection wires and solder to longer wire
-Now that all components are screwed into the acrylic, insert the PG7 glands on Side B. These will hold the **male** connections of an [8 Pin Connection Wire](https://www.amazon.com/gp/product/B00HG9VO0S/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1) and a [4 Pin Connection Wire](https://www.adafruit.com/product/744) which will connect the control box to the relay box. 
+Now that all components are screwed into the acrylic, insert all the cable glands into their designated holes. Insert the **male** [8 Pin Connection Wire](https://www.amazon.com/gp/product/B00HG9VO0S/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1) and the **male** [4 Pin Connection Wire](https://www.adafruit.com/product/744) through the cable glands on enclosure Side B. 
 
 ![](assets/m_f_8pin.PNG) 
 
-With Side B of the control box facing you, insert the **male** 8 Pin Connection Wire through the cable gland on the right (The 8 Pin Wire should be in the gland closer to the Elegoo board). Insert the cable so all exposed wires are through. Make sure that the cable goes through the Sealing Nut correctly and tighten the 8 Pin Wire in place. Each wire from the 8 Pin and 4 Pin Wire Connectors needs to be soldered to a [jumper wire](https://www.adafruit.com/product/758) so it can connect to a pin on the Elegoo board.  
+
+
+
+on the right (The 8 Pin Wire should be in the gland closer to the Elegoo board). Insert the cable so all exposed wires are through. Make sure that the cable goes through the Sealing Nut correctly and tighten the 8 Pin Wire in place. Each wire from the 8 Pin and 4 Pin Wire Connectors needs to be soldered to a [jumper wire](https://www.adafruit.com/product/758) so it can connect to a pin on the Elegoo board.  
 
 ![](assets/8PinWires.PNG)  
 
