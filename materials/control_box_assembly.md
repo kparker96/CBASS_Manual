@@ -128,20 +128,22 @@ Do the same for the PG13 gland on side D of the enclosure and the [USB cable](ht
 
 Place the Real Time Clock with soldered pin headers in the box with its screw holes facing  up towards side C. Set the RTC so the top right corner is aligned with the bottom left corner of the Elegoo board and mark both screw holes. If the soldered breadboard does not already have screw holes in it, screw a 1/8" hole on the left and right side of the breadboard on the edge of the + and - rows. Once the breadboard has holes, place it inside the control box, and mark the holes onto the acrylic with a marker. The breadboard should sit with the + and - rows facing the outside of the box (the terminal block holes should be facing the four gland holes drilled on Side A). There should be about 1cm of space between the locking nuts of the cable glands and the edge of the breadboard.  
 
-Unplug the power cables from the Elegoo and remove all components from the box to take out the acrylic. The cable glands can stay in if there is enough room to take out the acrylic. Use a 1/8" drill bit to drill holes completely through the acrylic at every marked point. Place the acrylic back in the control box and begin screwing in the components. Use the two screws that came with the control box to screw the acrylic into the enclosure.   
- 
+Unplug the power cables from the Elegoo and remove all components from the box to take out the acrylic. The cable glands can stay inserted if there is enough room to take out the acrylic. Use a 1/8" drill bit to drill holes completely through the acrylic at every marked point. Place the acrylic back in the control box and screw in all of the components. Use the two screws that came with the enclosure to anchor the acrylic to the bottom. At this stage all cable glands can be screwed into their designated holes.
+
 ![](assets/screwin.png) 
 
+# 7. Add rubber stoppers to PG13 and PG11 cable glands 
+
+The size of the USB and 9VDC power adapter require a larger cable gland, but have a thin cord, leaving a gap in the cable gland when tightened. To avoid moisture entering the enclosure through this gap, a rubber stopper can be modified to provide extra protection. If the stopper does not already have a hole, drill one in the center with a 1/8th bit. Cut a vertical line down the stopper so it can wrap around the cord then slide it into the cable gland. The screw cap of the cable gland will then fit over the cord and stopper and tighten.     
+
+![](assets/stopper.PNG)
 
 # 8. Insert 4 and 8 pin connection wires and solder to longer wire
-Now that all components are screwed into the acrylic, insert all the cable glands into their designated holes. Insert the **male** [8 Pin Connection Wire](https://www.amazon.com/gp/product/B00HG9VO0S/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1) and the **male** [4 Pin Connection Wire](https://www.adafruit.com/product/744) through the cable glands on enclosure Side B. 
+Now that all components are screwed into the acrylic, insert all the cable glands into their designated holes. The **male** [8 Pin Connector Wire](https://www.amazon.com/gp/product/B00HG9VO0S/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1) and the **male** [4 Pin Connection Wire](https://www.adafruit.com/product/744) will connect through the cable glands on enclosure Side B. The individual wires from the connectors needs to be soldered to a [jumper wire](https://www.adafruit.com/product/758) to connect into pins on the microcontroller.    
 
 ![](assets/m_f_8pin.PNG) 
 
-
-
-
-on the right (The 8 Pin Wire should be in the gland closer to the Elegoo board). Insert the cable so all exposed wires are through. Make sure that the cable goes through the Sealing Nut correctly and tighten the 8 Pin Wire in place. Each wire from the 8 Pin and 4 Pin Wire Connectors needs to be soldered to a [jumper wire](https://www.adafruit.com/product/758) so it can connect to a pin on the Elegoo board.  
+Insert the 8 Pin connector wire into the right side cable gland so all exposed wires are through and tighten the cable gland to secure it. 
 
 ![](assets/8PinWires.PNG)  
 
@@ -149,11 +151,11 @@ Prep the jumper wires by cutting off one end and stripping about a 1/2 cm of wir
 
 ![](assets/jumpwirestrip.PNG)  
 
-After wires are stripped, it is time to begin soldering. [Helping Hands](https://www.amazon.com/Neiko-01902-Adjustable-Magnifying-Alligator/dp/B000P42O3C/ref=sr_1_5?dchild=1&keywords=helping+hands&qid=1589989705&sr=8-5) are a useful tool to keep the wires in place. Use the clips to keep the stripped jumper wire aligned with the 8 Pin connector wire. Position the wires so they overlap and are touching. Apply solder to the exposed wire, fusing the two together. Be careful to not touch the soldering iron to the protective outer casing of the wires as it will melt.  
+[Helping Hands](https://www.amazon.com/Neiko-01902-Adjustable-Magnifying-Alligator/dp/B000P42O3C/ref=sr_1_5?dchild=1&keywords=helping+hands&qid=1589989705&sr=8-5) are a useful tool to keep the wires in place while soldering. Use the clips to keep the stripped jumper wire aligned with the 8 Pin connector wire. Position the wires so they overlap and are touching. Apply solder to the exposed wire, fusing the two together. Be careful to not touch the soldering iron to the protective outer casing of the wires as it will melt.  
 
 ![](assets/8pinsolderpic.PNG)  
 
-Once fully soldered, cut a small piece of electrical tape and wrap around the solder. Solder all 8Pin wires to their corresponding colored jumper wire. Make sure not to accidentally touch already soldered wires with the iron. The locking nut of the cable gland can be loosened to gently turn the 8 Pin for to put the wires at a better angle. 
+Once soldered, cut a small piece of electrical tape and wrap around the solder. Solder all 8Pin wires to their corresponding colored jumper wire. Make sure not to accidentally touch already soldered wires with the iron. The cable gland can be loosened to turn the 8 Pin connector and put the wires at a better angle for soldering. 
 
 Follow the same process for the 4Pin Connection wire ensuring that the **Male** end is being used. Only the black and white inner wires need to be soldered to jumper wire. Use wire cutters to trim off the red and yellow wires.  
 
@@ -186,31 +188,61 @@ Next, plug the LCD shield into the pins of the SD Shield.
 
 ![](assets/shieldsam.png)
 
+# 10. Solder the temperature sensors to the 4 pin connector wires 
 
-# 10. Plug everything in 
+The [temperature sensors](https://www.amazon.com/gp/product/B00EU5U182/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1) need to be soldered to the **MALE** [4 pin connector wires](https://www.adafruit.com/product/744) and the soldered wires will be sealed with [waterproof heat shrink tubing](https://www.amazon.com/dp/B084GDLSCK/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B084GDLSCK&pd_rd_w=2mLX2&pf_rd_p=4269e1a0-a218-4fbd-9748-1cd337d2f2a5&pd_rd_wg=ZHbHr&pf_rd_r=7BC7GH3NJZRXNJ8NQPWM&pd_rd_r=232afc0a-cfe2-45eb-8d5b-0c453afe64c9&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUTJWMk1JVDRPMzY1JmVuY3J5cHRlZElkPUEwMDkyNTc5SldPTFJLTTBZSjFLJmVuY3J5cHRlZEFkSWQ9QTAyMDM1MDcyQ1E4UFlLSFFaSENUJndpZGdldE5hbWU9c3BfZGV0YWlsJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==).
 
-It is now time to connect the RTC and breadboard to the Elegoo with jumper wires. Connections are as followed: 
+![](assets/temp4pinsolder.PNG)
 
-|**RTC (RTC Pin -> Elegoo Pin)**  | **Breadboard (Breadboard Pin -> Elegoo Pin)**|
-|:-----------------------------:  | :-------------------------------------------:|  
-|GND -> GND (Digital)	  | f1 -> 									   |
-|VCC -> 20 (Digital)  (Red) 	  | f2 -> GND (Power)							   |
-|SDA -> 19 (Communication) (Blue) | f3 -> 5V (Power)							   |
-|SCL -> 18 (Communication) (White)| 											   |
+Start by clipping the white wire from the  male 4 pin wire connector, it is not needed. 
+Slide a waterproof heat shrink tube onto the 4 pin connector wire. (It is important to do this now because it will not fit once the wires are soldered together). Use a helping hand tool to align the red, black, and yellow wires of the temperature sensor and 4 male pin connector wire. Solder the wires the same as Step 8, wrapping electrical tape over the solder.
 
+![](assets/tempsolder.png)
+
+Once all 3 wires are are soldered and taped, slide the heat shrink tubing over the wires and use a heat gun to seal it. Make sure to rotate the wire as heat is applied. 
+
+*NEED HEAT SHRINK PIC*
+
+Repeat this for all 4 temperature sensors. 
+
+# 11. Screw the female 4 pin connection wires into the terminal blocks
+
+The **FEMALE** [4 pin connector wires](https://www.adafruit.com/product/744) connect into the  [terminal blocks](https://www.amazon.com/Tegg-Screw-Terminal-Connector-Arduino/dp/B07QRHJ489/ref=sr_1_1?keywords=3%2Bpin%2Bterminal%2Bblock%2Bac%2B250v&qid=1580148133&sr=8-1&th=1) on the breadboard assembled in Step 4. 
+
+Insert the [PG7 cable glands](https://www.amazon.com/Cable-Gland-Plastic-Waterproof-Adjustable/dp/B06Y5HGYK2/ref=sr_1_3?keywords=pg11%2Bcable%2Bgland&qid=1561480735&s=hi&sr=1-3&pldnSite=1&th=1) into the 4 holes drilled on side A of the controller. Clip the white wire from each 4 pin connector wire, it is not needed. Feed the stripped wires of the 4 pin connector through the cable gland until the red, black, and yellow wires can reach the green terminal blocks. Tighten the gland to hold the 4 pin wire in place. Forceps are recommended to insert the individual wires into their designated terminal block channel. Working from left to right, wires should be inserted in the order of (1) red, (2) black, (3) yellow. The 4 pin wire color should align with the color of the jumper wire on the breadboard connected to the associated terminal block (black == blue). To secure the wires, insert them into the terminal block channel and tighten the screw on top with a flat head screw driver. After tightening the screw, give the individual wires a gentle pull to ensure the wire is secure.  
+
+![](assets/4PinBBconnection.png)
+
+Repeat this process for all Female 4 pin connector wires. If you are having difficulty getting the wires to stay securely in the terminal, try holding/pushing the wire into the terminal with forceps while screwing the terminal block. 
+
+![](assets/4PinBB.png)
+
+
+# 12. Connect the RTC and Breadboard Stacking Pins
+
+The RTC connects to the Elegoo as follows: 
+
+|**RTC Pin** |	  **Elegoo Pin (Pin Section)**  | **Wire Color** |
+|:----------:| :-----------------:|:--------------:| 
+|	GND 	 |	GND (Digital)	  |		Black	   |					   
+|	VCC      |	20 (Digital)	  |		Red		   |
+|	SDA      | 	19 (Communication)|		Blue       |	
+|	SCL      | 	18 (Communication |		White      |
+
+The stacking pins soldered to the breadboard connect to the Elegoo as follows: 
+
+|**RTC Pin** |	  **Elegoo Pin (Pin Section)**  | **Wire Color** |
+|:----------:| :---------------------:|:--------------:| 
+|	 f1		 |	 TX314 (Communication)|		Yellow     |			   
+|    f2	     |	GND (Power)		 	  |		Black	   |								  
+|	 f3 	 | 	5V (Power)			  |		Blue       |
 
 ![](assets/wired.png) 
 
 **_NOTE:_** *_This figure is meant to diagram all jummper wire connections in between control box components in a simple format. At this point in construction, all pieces should be soldered into the breadboard and RTC and the SD and LCD shield should be stacked on top of the Elegoo. The wires from the RTC to the Elegoo pins will have to curve around the Elegoo to not block the view of the LCD._* 
 
-# 11. Insert 4 pin wires to front and screw into breadboard 
-# 12. Solder temp wires to 4pins 
-# 13. Add rubber stoppers 
-# 14. Run RTC code 
-#15.  Run controller code 
+
+![](assets/controllerfinished.png)
 
 
-
-
-
-
+# 13. Run the RTC and CBASS code 
