@@ -15,9 +15,16 @@ This repository contains the materials and instructions needed to build a Coral 
 
 #### Repository Contents:
 
-**Assembly**:  
-* ** Controller_Assembly:**  
-* ** Solid_State_Relay_Box_Assembly:**  
-* ** Experimental_Tank_Assembly:**   
+**Assembly:**  
+* **Controller\_Assembly:**  
+* **Solid\_State\_Relay\_Box\_Assembly:**  
+* **Experimental\_Tank\_Assembly:**  
+* **Photos:** All pictures used in the .md files for this directory   
 
-**Materials**: 
+**Materials:**   
+* **CBASS\_Materials\_List.xlsx:** Excel spreadsheet of materials needed, estimated costs as of March 2022, and product links  
+
+**Scripts:**  
+* **CBASS-R:** Directory of files for CBASS-R v1.2 shield  
+* **Arduino:** Directory of scripts and libraries needed to run the CBASS  
+* **SD\_Card\_Input_Example:** Example of files on the microSD card used to set the temperature profile and recorded temperatures from an experiment 
