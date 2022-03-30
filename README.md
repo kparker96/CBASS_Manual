@@ -16,8 +16,8 @@ This repository contains the materials and instructions needed to build a Coral 
 #### Repository Contents:
 
 **Assembly**:  
-*** Controller_Assembly:**  
-*** Solid_State_Relay_Box_Assembly:**  
-*** Experimental_Tank_Assembly:**   
+* ** Controller_Assembly:**  
+* ** Solid_State_Relay_Box_Assembly:**  
+* ** Experimental_Tank_Assembly:**   
 
 **Materials**: 
