@@ -23,9 +23,9 @@ Side A contains the 9SD connection port (H) for the CBASS-R shield and the 4 pin
 
 Side B has  a [PG16 gland](https://www.amazon.com/Cable-Gland-Plastic-Waterproof-Adjustable/dp/B06Y5DKGSH/ref=sr_1_3?keywords=pg11%2Bcable%2Bgland&qid=1561480735&s=hi&sr=1-3&pldnSite=1&th=1) that will hold the USB and [9VDC Power Adaptor](https://www.adafruit.com/product/63) to connect to and power the Arduino Mega 2560. Use a 27/32" drill bit.  
 
-<p align="center"><img src="Photos/controllerPG16port.png" width="600"> 
+<p align="center"><img src="Photos/controllerPG16port.png" width="600">   
 
-<p align="center"><img src="Photos/controllerPG16measure.png" width="600">
+<p align="center"><img src="Photos/controllerPG16measure.png" width="600">  
 
  
  
@@ -34,16 +34,16 @@ Side B has  a [PG16 gland](https://www.amazon.com/Cable-Gland-Plastic-Waterproof
 
 Side D has a rectangular opening to fit a [Micro SD Card Extender](https://www.amazon.com/LANMU-Extension-MicroSDHC-Monoprice-Raspberry/dp/B07WWVBK8V/) which is capped with a [push in rectangular plug](https://www.mcmaster.com/catalog/128/4210/). Use a milling machine and an 1/8" drill bit to cut out the size of the rectangular plug (1 5/16 x 7/8"). 
 
-<p align="center"><img src="Photos/controllerSDport.png" width="600">
+<p align="center"><img src="Photos/controllerSDport.png" width="600">  
 
   
 ## Step 2: Cut an 1/8" acrylic insert to fit the bottom of the enclosure
 
 The controller enclosure needs an acrylic base to anchor the Arduino and Micro SD Card Extender to the enclosure which will prevent the components from moving around and potentially causing loose wires. Two screws are provided with the enclosure which can be used to anchor the acrylic to the enclosure. 
 
-<p align="center"><img src="Photos/controlleracrylic.PNG" width="700">
+<p align="center"><img src="Photos/controlleracrylic.PNG" width="700">  
 
-<p align="center"><img src="Photos/controllerscrews.PNG" width="600">  
+<p align="center"><img src="Photos/controllerscrews.PNG" width="600">    
 
 
 
@@ -54,12 +54,12 @@ Orient the TFT so the serial number on the side of the screen is on the left. Br
 
 On the back of the TFT board, place a small amount of solder on the IM1, IM2, and IM3 pads (boxed in red). **DO NOT PUT SOLDER ON THE IM0 PAD. THE SCREEN WILL NOT WORK IF THE IM0 IS SOLDERED** 
 
-<p align="center"><img src="Photos/TFTsolder.PNG" width="800"> 
+<p align="center"><img src="Photos/TFTsolder.PNG" width="800">   
 
 ## Step 4: Solder the temperature sensors to a 4 pin connector  
 All four [temperature probes](https://www.amazon.com/gp/product/B00EU5U182/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1) are wired together to a single **Male** [4 pin connector](https://www.adafruit.com/product/744).
 
-<p align="center"><img src="Photos/tempsensor4pin.PNG" width="800"> 
+<p align="center"><img src="Photos/tempsensor4pin.PNG" width="800">   
 
 ## Step 5: Stack the Arduino, CBASS-R Shield, and TFT Display with the SD Card Extender
 
