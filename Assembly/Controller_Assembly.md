@@ -41,9 +41,9 @@ Side D has a rectangular opening to fit a [Micro SD Card Extender](https://www.a
 
 The controller enclosure needs an acrylic base to anchor the Arduino and Micro SD Card Extender to the enclosure which will prevent the components from moving around and potentially causing loose wires. Two screws are provided with the enclosure which can be used to anchor the acrylic to the enclosure. 
 
-<p align="center"><img src="Photos/controlleracrylic.PNG" width="700">  
+<p align="center"><img src="Photos/controlleracrylic.png" width="700">  
 
-<p align="center"><img src="Photos/controllerscrews.PNG" width="600">    
+<p align="center"><img src="Photos/controllerscrews.png" width="600">    
 
 
 
@@ -54,12 +54,12 @@ Orient the TFT so the serial number on the side of the screen is on the left. Br
 
 On the back of the TFT board, place a small amount of solder on the IM1, IM2, and IM3 pads (boxed in red). **DO NOT PUT SOLDER ON THE IM0 PAD. THE SCREEN WILL NOT WORK IF THE IM0 IS SOLDERED** 
 
-<p align="center"><img src="Photos/TFTsolder.PNG" width="800">   
+<p align="center"><img src="Photos/TFTsolder.png" width="800">   
 
 ## Step 4: Solder the temperature sensors to a 4 pin connector  
 All four [temperature probes](https://www.amazon.com/gp/product/B00EU5U182/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1) are wired together to a single **Male** [4 pin connector](https://www.adafruit.com/product/744).
 
-<p align="center"><img src="Photos/tempsensor4pin.PNG" width="800">   
+<p align="center"><img src="Photos/tempsensor4pin.png" width="800">   
 
 ## Step 5: Stack the Arduino, CBASS-R Shield, and TFT Display with the SD Card Extender
 
