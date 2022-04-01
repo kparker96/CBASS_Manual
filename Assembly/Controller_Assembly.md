@@ -54,18 +54,30 @@ Orient the TFT so the serial number on the side of the screen is on the left. Br
 
 On the back of the TFT board, place a small amount of solder on the IM1, IM2, and IM3 pads (boxed in red). **DO NOT PUT SOLDER ON THE IM0 PAD. THE SCREEN WILL NOT WORK IF THE IM0 IS SOLDERED** 
 
-<p align="center"><img src="Photos/TFTsolder.png" width="800">   
+<p align="center"><img src="Photos/TFTsolder.png" width="700">   
 
 ## Step 4: Solder the temperature sensors to a 4 pin connector  
-All four [temperature probes](https://www.amazon.com/gp/product/B00EU5U182/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1) are wired together to a single **Male** [4 pin connector](https://www.adafruit.com/product/744).
+All four [temperature probes](https://www.amazon.com/gp/product/B00EU5U182/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&pldnSite=1) are wired together to a single **Male** [4 pin connector](https://www.adafruit.com/product/744) with the connections sealed in aquarium epoxy.  
 
-<p align="center"><img src="Photos/tempsensor4pin.png" width="800">   
+Start by stripping the red, yellow, and black wires at the end of each temp probe cord so about 3/4" of the inner copper wire is exposed. In groups of two, twist the corresponding copper wire from each colored wire together. (i.e. take two separate temp probes and twist the stripped part from both red wires together, then the black, then the yellow). Next, twist the designated colored wires between the coupled temperature probes. 
 
-## Step 5: Stack the Arduino, CBASS-R Shield, and TFT Display with the SD Card Extender
+Strip about 3/4" from the red, yellow, and black wires on the Male 4 pin connector wire and snip off the white wire. Wrap the exposed copper from the red wire on the 4 pin around your bundle of red wires from the temperature probes. Do the same for the other two colors. Solder each color connection separately and wrap the connection in electrical tape. i.e. You don't want the solder and metal of the red wire touching the black wire. Cut the bottom off of a 5mL tube (or other tube available of comparable size). Slide the plastic tube over where the temperature probes are connected to the 4 pin connector and fill with aquarium safe epoxy to water proof the connections.  
+
+Repeat these steps for as many temperature probe bundles are needed. One bundle is needed per controller. 
+
+<p align="center"><img src="Photos/tempsensor4pin.png" width="600">   
+
+<p align="center"><img src="Photos/tempprobeepoxy.png" width="600">
+
+## Step 5: Stack the Arduino, CBASS-R Shield, and TFT Display with the SD Card Extender  
+The Arduino, CBASS-R Shield, and TFT Display all stack on top of eachother with the stacking pins on the bottom of each piece. Start off with the Arduino and stack the CBASS-R shield into the Arduino. Next, put the SD card extender into the SD card port of the CBASS_R shield and fold the exess ribbion on top of the CBASS-R Shield. Finally, stack the TFT display on top of the CBASS-R to complete the controller sandwhich. 
 
 ## Step 6: Connect 9V and USB and add a rubber stopper  
+Feed the 9V and USB cable through the PG16 gland on Side B of the enclosure. Plug the cords into their respective ports on the Arduino. Take a rubber stopper and cut it in half width wise (if it does not have a center hole, you will also need to drill one). Cut lengthwise down the stopper so it will "roll out flat". Wrap the stopper around the power cords and push it into the PG16 gland. Then tighten the gland around the stopper to ensure a waterproof connection. 
 
 ## Step 7: Connect 4pin wires for temperature probes into the CBASS-R Shield 
+
+Clip the white cord off the **Female** 4 pin connector and feed it into the PG7 gland on Side A of the enclosure. Using fine tip forcepts, put the wires into the terminal blocks on the CBASS-R shield and tighten the top screws. Gently tug on the wires to ensure they are securely placed.  
 
 ## Step 8: Test! 
 
