@@ -87,7 +87,9 @@ First, make sure the standoffs for the Micro SD Card port on secured into the ac
 
 Next, clip the white cord off the **Female** 4 pin connector and feed it into the PG7 gland on Side A of the enclosure. Using fine tip forceps, put the wires into the terminal blocks on the CBASS-R shield and tighten the top screws. Gently tug on the wires to ensure they are securely placed.    
 
-**NEED SCREW TERMINAL NAMES ON CBASS-R SHIELD AND WHERE EACH WIRE CONNECTS**
+Red 5V
+Yellow T
+Black G
 
 ## Step 7: Assemble controller and add a rubber stopper for the power cables connection
 Feed the 9V and USB cable through the PG16 gland on Side B of the enclosure. Plug the cords into their respective ports on the Arduino. Align the Arduino sandwich with the 9SD connection opening and push the 9SD port into the oval hole with the adapter. Finally, screw the SD Card Extender port into the metal standoffs.
