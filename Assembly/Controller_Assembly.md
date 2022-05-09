@@ -17,7 +17,7 @@ Each side of the [enclosure](https://www.adafruit.com/product/905) requires mult
 Side A contains the 9SD connection port (H) for the CBASS-R shield and the 4 pin connector for the temperature probes (D). This requires an oval shaped hole to fit a 9S9 adaptor and a 29/64" hole in the center of the enclosure for a [PG7 gland](https://www.amazon.com/Cable-Gland-Plastic-Waterproof-Adjustable/dp/B06Y5HGYK2/ref=sr_1_3?keywords=pg11%2Bcable%2Bgland&qid=1561480735&s=hi&sr=1-3&pldnSite=1&th=1).
 
 <p align="center"><img src="Photos/controller4pin.png" width="600">  
-
+<p align="center"><img src="Photos/SideA_measurements.png" width="600">
 
 #### **Side B**
 
@@ -27,15 +27,11 @@ Side B has  a [PG16 gland](https://www.amazon.com/Cable-Gland-Plastic-Waterproof
 
 <p align="center"><img src="Photos/controllerPG16measure.png" width="600">  
 
- 
- 
-
 #### **Side D**
 
 Side D has a rectangular opening to fit a [Micro SD Card Extender](https://www.amazon.com/LANMU-Extension-MicroSDHC-Monoprice-Raspberry/dp/B07WWVBK8V/) which is capped with a [push in rectangular plug](https://www.mcmaster.com/catalog/128/4210/). Use a milling machine and an 1/8" drill bit to cut out the size of the rectangular plug (1 5/16 x 7/8"). 
 
 <p align="center"><img src="Photos/controllerSDport.png" width="600">  
-
   
 ## Step 2: Cut an 1/8" acrylic insert to fit the bottom of the enclosure
 
@@ -80,16 +76,20 @@ Repeat these steps for as many temperature probe bundles are needed. One bundle 
 ## Step 5: Stack the Arduino, CBASS-R Shield, and TFT Display with the SD Card Extender  
 The Arduino, CBASS-R Shield, and TFT Display all stack on top of each other with the stacking pins on the bottom of each piece. Start off with the Arduino and stack the CBASS-R shield into the Arduino. Next, put the SD card extender into the SD card port of the CBASS_R shield and fold the excess ribbon on top of the CBASS-R Shield. Finally, stack the TFT display on top of the CBASS-R to complete the controller "sandwich".  
 
-<p align="center"><img src="Photos/Arduino_sandwich.png" width="600">
+<p align="center"><img src="Photos/Arduino_Sandwich.png" width="600">
 
 ## Step 6: Connect 4pin wires for temperature probes into the CBASS-R Shield 
 First, make sure the standoffs for the Micro SD Card port on secured into the acrylic and the acrylic base is screwed into the enclosure.
 
-Next, clip the white cord off the **Female** 4 pin connector and feed it into the PG7 gland on Side A of the enclosure. Using fine tip forceps, put the wires into the terminal blocks on the CBASS-R shield and tighten the top screws. Gently tug on the wires to ensure they are securely placed.    
+Next, clip the white cord off the **Female** 4 pin connector and feed it into the PG7 gland on Side A of the enclosure. Using fine tip forceps, put the wires into the terminal blocks on the CBASS-R shield and tighten the top screws. Gently tug on the wires to ensure they are securely placed.  
 
-Red 5V
-Yellow T
-Black G
+Red --> 5V  
+Yellow --> T  
+Black --> G
+
+<p align="center"><img src="Photos/temp_wiring.png" width="600">    
+
+
 
 ## Step 7: Assemble controller and add a rubber stopper for the power cables connection
 Feed the 9V and USB cable through the PG16 gland on Side B of the enclosure. Plug the cords into their respective ports on the Arduino. Align the Arduino sandwich with the 9SD connection opening and push the 9SD port into the oval hole with the adapter. Finally, screw the SD Card Extender port into the metal standoffs.
