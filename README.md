@@ -1,3 +1,5 @@
+# ** THIS REPOSITORY IS NO LONGER IN USE. THE CURRENT AND ACTIVE VERSION CAN BE FOUND AT [https://github.com/BarshisLab/CBASS_Manual](https://github.com/BarshisLab/CBASS_Manual) **
+
 [DOI LINK]
 
 This repository includes an instructional guide to accompany the manuscript:
